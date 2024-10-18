@@ -2,7 +2,7 @@ import { component, useEffect, useState, html } from 'haunted';
 
 interface SearchProps {
   query: string;
-  setQuery: (e: Event) => void;
+  setQuery: (q: string) => void;
   handleSubmit: () => void;
 }
 

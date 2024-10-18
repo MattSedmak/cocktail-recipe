@@ -55,7 +55,7 @@ const CocktailCard = virtual(
 
 const CocktailList = ({ cocktails }: CocktailListProps) => {
   return html`
-    <div class="container">
+    <div>
       ${cocktails.length > 0
         ? html`<ul>
             ${cocktails.map((cocktail) => CocktailCard(cocktail))}

@@ -45,7 +45,7 @@ const ShoppingList = () => {
         )}
       </ul>
       <button @click=${openDialog} ?disabled=${ingredients.length === 0}>
-        Print Shipping List
+        Print Shopping List
       </button>
     </div>
     <dialog ?open=${open}>
