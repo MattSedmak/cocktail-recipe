@@ -14,15 +14,16 @@ This is a simple web app that allows users to search for cocktails and add ingre
 To run the app locally, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone <repo url>
    ```
 
-````
 2. Install dependencies:
+
 ```bash
 npm install
-````
+```
 
 3. Start the server
 
